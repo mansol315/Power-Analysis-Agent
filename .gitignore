@@ -1,0 +1,19 @@
+# API 키가 들어있는 환경 변수 파일 (가장 중요!)
+.env
+
+# 파이썬 실행 시 생성되는 임시 파일들
+__pycache__/
+*.py[cod]
+
+# 가상환경 폴더 (용량이 크고 재설치 가능함)
+venv/
+.venv/
+
+# 주피터 노트북 임시 폴더
+.ipynb_checkpoints/
+
+# 벡터 DB 데이터 (로컬 생성 데이터이므로 제외 권장)
+chroma_db_power_integrated/
+
+# 운영체제 생성 파일
+.DS_Store
